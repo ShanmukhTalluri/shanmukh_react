@@ -1,0 +1,36 @@
+.main{
+    background-image: linear-gradient(280deg,rgb(105, 11, 93),rgb(32, 198, 240));
+    width:100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    border:3px solid black;
+    height:360px;
+    width:280px;
+    background-color: aliceblue;
+    border-radius: 27px;
+    box-shadow: 5px 5px 6px;
+
+}
+.hone{display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: indigo;
+    color:gainsboro;
+}
+button{
+    background-color: indigo;
+    color: gainsboro;
+}
+button:hover{
+    background-color: goldenrod;
+    color:black;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+}
